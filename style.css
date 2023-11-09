@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.parent{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color:lightpink;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    display: flex;
+    height: 90%;
+    width: 80%;
+    background-color: grey;
+   
+}
+
+.left{
+    height:100%;
+    width:30%;
+    background: url("https://wallpaper-house.com/data/out/6/wallpaper2you_112328.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.right{
+    height:100%;
+    width: 70%;
+   
+}
+
+.upper{
+    display: flex;
+    height: 40%;
+    width:100%;
+    background-color: lightpink;
+  
+}
+
+.lower{
+    height: 60%;
+    width: 100%;
+    background-color: skyblue;
+   
+}
+ .lower iframe{
+ background: url("https://miro.medium.com/v2/1*9_ie81Gx8GQTOp4idauFLQ.png");
+ background-position: cover;
+ background-size: cover;
+} 
+
+.uleft{
+    height:100%;
+    width: 50%;
+    background-color: lightpink;
+   
+}
+
+.uright{
+    height: 100%;
+    width: 50%;
+    background-color:lightyellow;
+    
+}
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    height: 30px;
+    width: 100%;
+  
+}
+
+.arrow{
+    /* padding: 5px; */
+    width: 30px;
+    color: white;
+    margin-left: 10px;
+   /* padding: 5px; */
+   
+}
+
+.head{
+    display: flex;
+    
+    margin-left: 100px;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.head i{
+    color: white;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+
+.content{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.content a{
+    margin-top: 180px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.content a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
